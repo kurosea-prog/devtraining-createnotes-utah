@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">edc48af304aa36107c6d540b36b729af</page>
+        <required_translations>[{"message":"Logout","comment":""},{"message":"Configure","comment":""},{"message":"UserMenu","comment":""},{"message":"Settings","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:55:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7dc48af36faa36102a86abfb6b617ac6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_ux_page_property_7dc48af36faa36102a86abfb6b617ac6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:55:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_createnotes.edc48af304aa36107c6d540b36b729af.root.chrome_header</unique_name>
+        <value>{
+    "privatePage":{
+      "searchEnabled": true,
+       "userPrefsEnabled":true,
+       "currentScreenLinkConfiguration": {
+            "roles": ["admin"],
+            "position": 250
+        },
+       "globalTools":{
+          "collapsingMenuId":0,
+          "primaryItems":[
+             {
+                "label":"UserMenu",
+                "icon":"user",
+                "type":"menu",
+                "primaryDisplay":"icon",
+                "value":{
+                   "children":[
+                      {
+                         "label": {
+                          "translatable": true,
+                          "message":"Settings"
+                        },
+                         "position":100,
+                         "type":"navigation",
+                         "value":{
+                            "type":"route",
+                            "value":{
+                               "route":"settings",
+                               "fields":{
+                                  
+                               }
+                            }
+                         }
+                      },
+                      {                   
+                        "condition": {
+                          "roles": ["admin", "ui_builder_admin"]
+                        },
+                         "label":{
+                            "translatable": true,
+                            "message":"Configure"
+                          },
+                         "type":"navigation",
+                         "position":200,
+                         "primaryDisplay":"none",
+                         "value":{
+                            "type":"external",
+                            "opensWindow":"true",
+                            "value":{
+                               "href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=e1c48af355aa3610538d00083b87edb0"
+                            }
+                         }
+                      },
+                      {
+                         "label": {
+                            "translatable": true,
+                            "message":"Logout"
+                          },
+                         "position":500,
+                         "type":"navigation",
+                                "value":{
+                                  "type": "AUTH_ROUTE_BINDING",
+                                        "binding": {
+                                            "address": ["logout"],
+                                            "params": {"reload": true},
+                                            "default": "/logout.do"
+                                }
+                        }
+                      }
+                   ]
+                }
+             }
+          ],
+          "secondaryItems":[]
+       }
+    },
+    "publicPage":{
+      "menuEnabled": true,
+      "logoRoute": {
+        "type": "route",
+        "value": {
+          "route": "landing",
+          "fields":{}
+        }
+      }
+    }
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>1d5a2e14db7af910199b17291396192e</instance_id>
+        <instance_name>dev224330</instance_name>
+        <name>sys_ux_page_property_7dc48af36faa36102a86abfb6b617ac6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">edc48af304aa36107c6d540b36b729af</page><required_translations>[{"message":"Logout","comment":""},{"message":"Configure","comment":""},{"message":"UserMenu","comment":""},{"message":"Settings","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 00:55:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7dc48af36faa36102a86abfb6b617ac6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package><sys_policy/><sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope><sys_update_name>sys_ux_page_property_7dc48af36faa36102a86abfb6b617ac6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 00:55:30</sys_updated_on><type>json</type><unique_name>x_snc_createnotes.edc48af304aa36107c6d540b36b729af.root.chrome_header</unique_name><value>{
+    "privatePage":{
+      "searchEnabled": true,
+       "userPrefsEnabled":true,
+       "currentScreenLinkConfiguration": {
+            "roles": ["admin"],
+            "position": 250
+        },
+       "globalTools":{
+          "collapsingMenuId":0,
+          "primaryItems":[
+             {
+                "label":"UserMenu",
+                "icon":"user",
+                "type":"menu",
+                "primaryDisplay":"icon",
+                "value":{
+                   "children":[
+                      {
+                         "label": {
+                          "translatable": true,
+                          "message":"Settings"
+                        },
+                         "position":100,
+                         "type":"navigation",
+                         "value":{
+                            "type":"route",
+                            "value":{
+                               "route":"settings",
+                               "fields":{
+                                  
+                               }
+                            }
+                         }
+                      },
+                      {                   
+                        "condition": {
+                          "roles": ["admin", "ui_builder_admin"]
+                        },
+                         "label":{
+                            "translatable": true,
+                            "message":"Configure"
+                          },
+                         "type":"navigation",
+                         "position":200,
+                         "primaryDisplay":"none",
+                         "value":{
+                            "type":"external",
+                            "opensWindow":"true",
+                            "value":{
+                               "href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=e1c48af355aa3610538d00083b87edb0"
+                            }
+                         }
+                      },
+                      {
+                         "label": {
+                            "translatable": true,
+                            "message":"Logout"
+                          },
+                         "position":500,
+                         "type":"navigation",
+                                "value":{
+                                  "type": "AUTH_ROUTE_BINDING",
+                                        "binding": {
+                                            "address": ["logout"],
+                                            "params": {"reload": true},
+                                            "default": "/logout.do"
+                                }
+                        }
+                      }
+                   ]
+                }
+             }
+          ],
+          "secondaryItems":[]
+       }
+    },
+    "publicPage":{
+      "menuEnabled": true,
+      "logoRoute": {
+        "type": "route",
+        "value": {
+          "route": "landing",
+          "fields":{}
+        }
+      }
+    }
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1380171813</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>4ea6d422c3123210ad21bd0ed401310b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:26:12</sys_created_on>
+        <sys_id>7c454e77c3aa3610ad21bd0ed4013199</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba73a43200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>3c454e7704aa3610f454ca02484e1f99</update_guid>
+        <update_guid_history>3c454e7704aa3610f454ca02484e1f99:-1380171813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:57:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>7e042e8f34c046b39e6212c8dfe6a619</sys_id>
+        <sys_metadata>7dc48af36faa36102a86abfb6b617ac6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_7dc48af36faa36102a86abfb6b617ac6</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_7dc48af36faa36102a86abfb6b617ac6">7c454e77c3aa3610ad21bd0ed4013199</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:57:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

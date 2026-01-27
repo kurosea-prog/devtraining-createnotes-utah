@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_createnotes.testtable_notdata_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>testtable_notdata_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:21:08</sys_created_on>
+        <sys_id>17ecbd3fc3e63610ad21bd0ed401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_createnotes.testtable_notdata_user</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_user_role_17ecbd3fc3e63610ad21bd0ed401312a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:21:08</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>1d5a2e14db7af910199b17291396192e</instance_id>
+        <instance_name>dev224330</instance_name>
+        <name>sys_user_role_17ecbd3fc3e63610ad21bd0ed401312a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_snc_createnotes.testtable_notdata_user</name><scoped_admin>false</scoped_admin><suffix>testtable_notdata_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 00:21:08</sys_created_on><sys_id>17ecbd3fc3e63610ad21bd0ed401312a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_createnotes.testtable_notdata_user</sys_name><sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package><sys_policy/><sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope><sys_update_name>sys_user_role_17ecbd3fc3e63610ad21bd0ed401312a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 00:21:08</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1252446259</payload_hash>
+        <record_name>x_snc_createnotes.testtable_notdata_user</record_name>
+        <reverted_from/>
+        <source>548c0ea3c36eb210ad21bd0ed4013117</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:21:08</sys_created_on>
+        <sys_id>d3ecb9f3c36a3610ad21bd0ed4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bfcd35cbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:21:08</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9fecb9f3b36a361058b77fcf036bb74f</update_guid>
+        <update_guid_history>9fecb9f3b36a361058b77fcf036bb74f:1252446259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_createnotes.testtable_notdata_user">2a344673c3aa3610ad21bd0ed401314f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:53:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>237b31d597dc48d5b4b0ce7b57eb32c1</sys_id>
+        <sys_metadata>17ecbd3fc3e63610ad21bd0ed401312a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_createnotes.testtable_notdata_user</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sys_user_role_17ecbd3fc3e63610ad21bd0ed401312a</sys_update_name>
+        <sys_update_version display_value="sys_user_role_17ecbd3fc3e63610ad21bd0ed401312a">d3ecb9f3c36a3610ad21bd0ed4013151</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:53:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="testtable_notdata">dfecb9f3c36a3610ad21bd0ed4013157</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>testtable_notdatas</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_createnotes_testtable_notdata</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_snc_createnotes.testtable_notdata_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:21:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13ecb9f3c36a3610ad21bd0ed4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testtable_notdatas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sys_app_module_13ecb9f3c36a3610ad21bd0ed4013160</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:21:09</sys_updated_on>
+        <timeline_page/>
+        <title>testtable_notdatas</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</application>
+        <file_path/>
+        <instance_id>1d5a2e14db7af910199b17291396192e</instance_id>
+        <instance_name>dev224330</instance_name>
+        <name>sys_app_module_13ecb9f3c36a3610ad21bd0ed4013160</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="testtable_notdata">dfecb9f3c36a3610ad21bd0ed4013157</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>testtable_notdatas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_createnotes_testtable_notdata</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_snc_createnotes.testtable_notdata_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 00:21:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>13ecb9f3c36a3610ad21bd0ed4013160</sys_id><sys_mod_count>0</sys_mod_count><sys_name>testtable_notdatas</sys_name><sys_overrides/><sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package><sys_policy/><sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope><sys_update_name>sys_app_module_13ecb9f3c36a3610ad21bd0ed4013160</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 00:21:09</sys_updated_on><timeline_page/><title>testtable_notdatas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1195447202</payload_hash>
+        <record_name>testtable_notdatas</record_name>
+        <reverted_from/>
+        <source>548c0ea3c36eb210ad21bd0ed4013117</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:21:09</sys_created_on>
+        <sys_id>57ecb9f3c36a3610ad21bd0ed4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bfcd35de90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:21:09</sys_updated_on>
+        <type>Module</type>
+        <update_guid>13ecb9f3166a361083d07bf8d53a5366</update_guid>
+        <update_guid_history>13ecb9f3166a361083d07bf8d53a5366:-1195447202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="testtable_notdatas">427d7177c36a3610ad21bd0ed40131a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 00:23:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>818b532c9da74cfc9f02eb0c8eed3d24</sys_id>
+        <sys_metadata>13ecb9f3c36a3610ad21bd0ed4013160</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testtable_notdatas</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_scope_delete display_value="">64daa03572704d49a928bf08a985d6f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_13ecb9f3c36a3610ad21bd0ed4013160</sys_update_name>
+        <sys_update_version display_value="sys_app_module_13ecb9f3c36a3610ad21bd0ed4013160">57ecb9f3c36a3610ad21bd0ed4013167</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 00:23:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
